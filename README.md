@@ -2,13 +2,10 @@
 
 Run the app.
 
-If the button at the bottom is visible, reduce the height of the app window until you can't see it.
+You will see a button (ButtonTop) at the top of the screen with a caption "Jump to Bottom"
+Lots of labels filling up the rest of the screen,
+and if you scroll down, you'll see another button called BottomButton with text "Jump to Top".
 
-Click the button at the top.
-
-This button sets a member variable, _scrollToElement, to contain the button at the bottom of the screen (BottomButton).
-
-The app will then pop up another page (MyMainPage). Click the Close button to close it.
-
-Code execution then goes back to MainPage.OnAppearing - where code does a ScrollView.ScrollToAsync to the control stored in _scrollToElement.
-ScrollToPoistion is MakeVisible, but the scrollview does not scroll to that control, and the button remains off-screen.
+If you examine the code, you'll see that in OnAppearing, when it runs for the first time,
+it should scroll to BottomButton, ensuring it is visible. That code executes, but
+does not seem to have any effect on the display.
