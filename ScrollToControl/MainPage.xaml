@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScrollToControl.MainPage">
+
+	<ScrollView x:Name="MyScrollView" Margin="10">
+
+		<VerticalStackLayout>
+			<Button x:Name="TopButton" Text="Jump to Bottom" Clicked="TopButton_Clicked" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Label Text="This is a label just to fill space" FontSize="Large" />
+			<Button x:Name="BottomButton" Text="Jump to Top" Clicked="BottomButton_Clicked" />
+		</VerticalStackLayout>
+	</ScrollView>
+
+</ContentPage>
